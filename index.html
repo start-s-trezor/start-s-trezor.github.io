@@ -81,6 +81,20 @@
             background: #e6e6e6;
             border-top: #ccc 1px solid;
         }
+        .get-started-button {
+            background-color: #006400; /* Dark Green */
+            color: white; /* White text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .get-started-button:hover {
+            background-color: #004d00; /* Darker green on hover */
+        }
     </style>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -98,13 +112,14 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Trezor.io/start (Version 22.9.3)</h1>
+                <h1>Trezor</h1>
             </div>
             <nav>
                 <ul>
                     <li><a href="#setup">Setup</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#" class="get-started-button">Get Started</a></li>
                 </ul>
             </nav>
         </div>
